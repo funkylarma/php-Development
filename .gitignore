@@ -1,17 +1,15 @@
-.htaccess
-wp-*.php
-xmlrpc.php
-wp-admin/
-wp-includes/
-wp-content/uploads/
-wp-content/blogs.dir/
-wp-content/upgrade/*
-wp-content/backup-db/*
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-wp-content/cache/*
-wp-content/cache/supercache/*
-sitemap.xml
-sitemap.xml.gz
-readme.html
-license.txt
+﻿# Thumbnails
+Thumbs.db
+._* 
+
+# Folder config file
+Desktop.ini
+.DS_Store
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+.Trashes
+
+# Files that might appear on external disk
+.Spotlight-V100
+
