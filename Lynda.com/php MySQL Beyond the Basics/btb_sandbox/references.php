@@ -12,7 +12,10 @@
 			$a = 1;
 			$b =& $a;
 			$b = 2;
-			echo "a: {$a} / b: {$b}<br />";		
+			echo "a: {$a} / b: {$b}<br />";
+
+			unset($b);
+			echo "a: {$a} / b: {$b}<br />";
 		?>
 	</body>
 </html>
